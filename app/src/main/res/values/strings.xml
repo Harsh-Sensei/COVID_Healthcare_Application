@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">COVID Healthcare</string>
+    <string name="covid_updates">COVID Updates</string>
+    <string name="htg_sensei">htg_sensei</string>
+    <string name="number_of_cases">Number of cases:</string>
+    <string name="cases_today">Cases Today:</string>
+</resources>
