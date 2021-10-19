@@ -12,6 +12,9 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.COVIDHealthcare">
         <activity
+            android:name=".questionairre"
+            android:exported="false" />
+        <activity
             android:name=".StateDataDisplay"
             android:exported="false" />
         <activity
