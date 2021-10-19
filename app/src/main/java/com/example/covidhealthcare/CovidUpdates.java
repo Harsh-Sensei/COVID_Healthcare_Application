@@ -27,13 +27,14 @@ public class CovidUpdates extends AppCompatActivity{
             public void run() {
                 try  {
                     URL country_url = new URL("https://coronavirus-19-api.herokuapp.com/countries/india");
-                    URL state_url = new URL("https://api.apify.com/v2/key-value-stores/toDWvRj1JpTXiM8FF/records/LATEST?disableRedirect=true");
 
                     URLConnection con=country_url.openConnection();
 
                     InputStream country_stream = con.getInputStream();
 
                     BufferedReader country_buffer = new BufferedReader(new InputStreamReader(country_stream));
+
+
 
                     String line = country_buffer.readLine();
 
@@ -67,13 +68,12 @@ public class CovidUpdates extends AppCompatActivity{
             System.out.println(e);
         }
 
-        System.out.println(map);
-        TextView tv1 = (TextView)findViewById(R.id.num_cases);
+        TextView tv1 = (TextView)findViewById(R.id.total_cases_id);
         tv1.setText(map.get("\"cases\""));
-        System.out.println(map.get("cases"));
-        TextView tv2 = (TextView)findViewById(R.id.today_cases);
+
+        TextView tv2 = (TextView)findViewById(R.id.today_cases_id);
         tv2.setText(map.get("\"todayCases\""));
-        System.out.println(map.get("todayCases"));
+
 
 
     }

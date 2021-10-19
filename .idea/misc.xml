@@ -3,8 +3,10 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Users/htg_sensei/AndroidStudioProjects/COVIDHealthcare/app/src/main/res/layout/activity_covid_states_data.xml" value="0.264" />
         <entry key="..\:/Users/htg_sensei/AndroidStudioProjects/COVIDHealthcare/app/src/main/res/layout/activity_covid_updates.xml" value="0.2391304347826087" />
         <entry key="..\:/Users/htg_sensei/AndroidStudioProjects/COVIDHealthcare/app/src/main/res/layout/activity_main.xml" value="0.2391304347826087" />
+        <entry key="..\:/Users/htg_sensei/AndroidStudioProjects/COVIDHealthcare/app/src/main/res/layout/activity_state_data_display.xml" value="0.264" />
       </map>
     </option>
   </component>
